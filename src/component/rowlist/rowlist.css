@@ -31,3 +31,40 @@
   .hone{
     color: white;
   }
+  .single-movie{
+    height: 169px;
+    margin-right: 10px;
+    width: 300px;
+    background-color: wheat;
+    background-repeat: no-repeat;
+     background-size: contain;
+    }
+    .listofmovies{
+        display: flex;
+    }
+  
+
+    .centered-video {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8); /* semi-transparent black background */
+      z-index: 999; /* ensures the video is on top of other content */
+  }
+  
+  .react-player-container {
+      max-width: 80%; /* Adjust the size of the video container as needed */
+      max-height: 80%; /* Adjust the size of the video container as needed */
+  }
+  
+  .react-player {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+  }
+  

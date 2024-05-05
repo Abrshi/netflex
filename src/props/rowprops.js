@@ -5,12 +5,19 @@ function RowProps(props) {
   return (
     <div className='propsouterdiv'>
       
-        <div>
-          
-        </div>
-        <div className="listofmoves">
-          <div className="singlmove" style={{ backgroundImage: `url(${props.bgpath})` }}></div>
-        </div>
+        
+    <div className="listofmoves">
+
+    <div 
+    className="singlmove" 
+    style={{ backgroundImage:  `url(${props.bgpath})` }}
+    
+    onClick={() => props.fun()} 
+
+>
+</div>
+
+    </div>
 
     </div>
     
