@@ -5,6 +5,7 @@ import ContactsIcon from '@mui/icons-material/Contacts';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import logo from "../../assets/imags/logo.png"
+import MenuIcon from '@mui/icons-material/Menu'; 
 function Header( ) {
   return (
     <div>
@@ -26,10 +27,12 @@ function Header( ) {
         <li><SearchIcon /></li>
         <li><NotificationsNoneIcon /></li>
         <li><ContactsIcon /></li>
-        <li><ArrowDropDownIcon  /></li>
-          
-           
+        <li><ArrowDropDownIcon  /></li>   
         </ul>
+        
+    </div>
+    <div className='menuicon'>
+    <MenuIcon />
     </div>
 </div>
     

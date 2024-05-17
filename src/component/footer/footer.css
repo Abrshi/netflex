@@ -3,7 +3,7 @@
 }
 .footerFirstDiv{
     margin: auto;
-    width: 980px;
+    /* width: 980px; */
 }
 .socialMidiya>ul{
     display: flex;
@@ -21,3 +21,29 @@
     font-size: small;
     color: rgb(136, 136, 136);;
 }
+
+@media (max-width: 768px){
+    .footerNave{
+     display:grid ;
+     align-items: center;
+     justify-content: center;
+     width: auto;
+
+    }
+  
+ }
+ @media (min-width: 768px) and (max-width: 1023px){
+    .footerNave{
+        display:grid ;
+        grid-template-columns: repeat(2,auto) 2fr repeat(2,auto);
+        align-items: center;
+        justify-content: space-between;
+        width: auto;
+   
+       }  
+ }
+ @media (min-width: 1024px){
+   .menuicon{
+     display: none;
+   }  
+ }
