@@ -10,7 +10,7 @@ function Footer() {
     <footer className="footer">
 <div className="footerFirstDiv">
     <div className="socialMidiya">
-    <ul>
+    <ul className='smi'>
     <li> <FacebookOutlinedIcon /></li>
     <li> <InstagramIcon /></li>
     <li> <YouTubeIcon /></li>
