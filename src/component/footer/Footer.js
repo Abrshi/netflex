@@ -21,7 +21,7 @@ function Footer() {
             <ul>
                 <li>Audio Description</li>
                 <li>Investor Relations</li>
-                <li>Loegal Notice</li>
+                <li>Loegal Notic</li>
                 <li><span className="footerRectangl"> Service Code</span></li>
                 <li> <span> &copy;</span> 1979-2024 Netflix,Inc.</li>
             </ul>
