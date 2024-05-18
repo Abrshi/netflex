@@ -18,6 +18,7 @@ function Header() {
       <img className="logoSmScrin" src={logo} alt="logo" />
       <div className="left-header">
         <ul className={`nav-links ${isActive ? 'active' : ''}`}>
+          <li className="netflex-logo"><img src={logo} alt="logo" /></li>
           <li>Home</li>
           <li>TV Shows</li>
           <li>Movies</li>
